@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patente"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/patente"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text1"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/marca"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text2"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/modelo"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text3"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Año"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/anno"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text4"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato9">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre dueño"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/duenno"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato10">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text5"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato11">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilometraje"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/kilometraje"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato12">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text6"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:layout_marginTop="3dp"
+        android:id="@+id/layoutListaFormato13">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revisión técnica"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/revision"
+            android:layout_marginTop="3dp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#37474F"
+        android:id="@+id/layoutListaFormato14">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/text7"
+            android:layout_marginBottom="3dp">
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

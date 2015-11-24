@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_900"
+    tools:context="com.example.nicole.smartcoming.Iniciar_sesion">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar_iniciar_sesion"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_width="match_parent"
+        android:minHeight="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_below="@id/app_bar_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:textSize="14sp"
+            android:id="@+id/txt_correo2"
+            android:drawableLeft="@mipmap/ic_person_white_24dp"
+            android:hint="Correo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+            <requestFocus />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_contrasena2"
+            android:drawableLeft="@mipmap/ic_lock_white_24dp"
+            android:hint="Contraseña"
+            android:textSize="14sp"
+            android:layout_below="@+id/txt_correo2"
+            android:layout_alignParentStart="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="INGRESAR"
+            android:id="@+id/btn_ingresar"
+            android:textSize="14sp"
+            android:onClick="SesionTipoUsuario"
+            android:layout_below="@+id/txt_contrasena2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtIdUsuario"
+            android:textColor="@color/material_blue_grey_900"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtTipoUsuario"
+            android:textColor="@color/material_blue_grey_900"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/material_blue_grey_900"
+            android:id="@+id/TxtValidador"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

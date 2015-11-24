@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_900"
+    tools:context="com.example.nicole.smartcoming.Menu_administrador">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar_menu_administrador"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material" />
+
+    <RelativeLayout
+        android:id="@+id/layoutMenuAdministrador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar_menu_administrador">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:onClick="listarUsuarios"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_column="2"
+                android:onClick="listarUsuarios"
+                android:src="@mipmap/ic_people_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="ADMINISTRAR USUARIOS"
+                android:gravity="left"
+                android:onClick="listarUsuarios"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:onClick="menuChoferes"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_column="2"
+                android:onClick="menuChoferes"
+                android:src="@mipmap/ic_folder_shared_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="ADMINISTRAR CHOFERES"
+                android:gravity="left"
+                android:onClick="menuChoferes"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:onClick="menuVehiculos"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_column="2"
+                android:onClick="menuVehiculos"
+                android:src="@mipmap/ic_local_taxi_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="ADMINISTRAR VEHÍCULOS "
+                android:gravity="left"
+                android:onClick="menuVehiculos"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:onClick="mostrarHorariosAdm"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_column="2"
+                android:onClick="mostrarHorariosAdm"
+                android:src="@mipmap/ic_query_builder_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="HORARIOS"
+                android:gravity="left"
+                android:onClick="mostrarHorariosAdm"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:onClick="publicarComentarioAdm"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_column="2"
+                android:onClick="publicarComentarioAdm"
+                android:src="@mipmap/ic_message_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="COMENTARIOS"
+                android:gravity="left"
+                android:onClick="publicarComentarioAdm"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:onClick="ayudaAppAdm"
+            android:clickable="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_column="2"
+                android:onClick="ayudaAppAdm"
+                android:src="@mipmap/ic_help_white_48dp"
+                android:clickable="true" />
+
+            <TextView
+                android:text="AYUDA"
+                android:gravity="left"
+                android:onClick="ayudaAppAdm"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:padding="13dip"
+                android:layout_column="2"
+                android:clickable="true" />
+        </TableRow>
+    </TableLayout>
+        </RelativeLayout>
+</RelativeLayout>

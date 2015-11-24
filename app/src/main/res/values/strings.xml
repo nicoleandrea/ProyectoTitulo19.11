@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Smart Coming</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Cerrar Sesión</string>
+    <string name="title_activity_registro_usuario">Registro</string>
+    <string name="title_activity_iniciar_sesion">Ingreso</string>
+    <string name="title_activity_menu_usuario">Menú Principal</string>
+    <string name="title_activity_mostrar_usuario">Mi Perfil</string>
+    <string name="title_activity_modificar_usuario">Modificar Datos</string>
+    <string name="title_activity_eliminar_usuario">Configuración</string>
+    <string name="title_activity_listar_usuarios">Listado</string>
+    <string name="title_activity_mostrar_horarios">Horarios</string>
+    <string name="title_activity_menu_administrador">Menú Principal</string>
+    <string name="title_activity_menu_choferes">Administrar Choferes</string>
+    <string name="title_activity_menu_vehiculos">Administrar Vehículos</string>
+    <string name="title_tutorial">Tutorial</string>
+
+    <string name="tutorial01">Desde el menú principal seleccione la opción "Localizar", de forma automática se visualiza un mapa de acuerdo a su ubicación actual, junto con ello puede ver y seleccionar los vehículos, mostrando información de estos; patente, velocidad, distancia y estimación de llegada. </string>
+
+    <string name="tutorial02">Desde el menú principal seleccione la opción "Mi perfil", en la pantalla siguiente seleccione el botón "Modificar" y automáticamente se despliegan los datos que pueden ser modificados, tales como: imagen de perfil, correo electrónico y contraseña. Proceda a realizar los cambios que estime conveniente y finalmente seleccione el botón "Modificar" para que los cambios sean guardados.</string>
+
+    <string name="tutorial03">Desde el menú principal seleccione la opción "Mi perfil", en la pantalla siguiente seleccione el botón "Eliminar" y automáticamente se despliega un cuadro de confirmación para que la cuenta sea eliminada. De ser confirmando el mensaje la aplicación vuelve a la pantalla de inicio. De no ser confirmado se cancela la eliminación.</string>
+
+    <string name="tutorial04">Desde el menú principal seleccione la opción "Mi perfil", en donde podrá visualizar sus datos, tales como: imagen de perfil, nombre y correo electrónico. Además tiene acceso a modificar sus datos y eliminar su cuenta.</string>
+
+    <string name="tutorial05">Desde el menú principal seleccione la opción "Horarios", de manera automática se muestran los horarios de salida según el recorrido de los vehículos.</string>
+
+    <string name="tutorial06">Desde el menú principal seleccione la opción "Comentarios", de manera automática se muestran los comentarios realizados por los demás usuarios de la aplicación. Para redactar un comentario debe posicionarse en el recuadro y comenzar a escribir. Finalmente para publicar su comentario debe seleccionar el botón "Publicar".</string>
+
+    <string name="tutorial07">¡¡Ya estás dentro del tutorial de\nSmart Coming!!\n\n Desplaza hacia la izquierda para conocer las diferentes funcionalidades de la aplicación y aprendas a utilizarla de manera correcta.</string>
+
+    <string name="tutorial_adm02">Desde el menú principal seleccione la opción "Administrar usuarios", en la pantalla siguiente seleccione el botón "Listar" y automáticamente se mostraran todos los usuarios registrados en la aplicación.</string>
+
+    <string name="tutorial_adm03">Desde el menú principal seleccione la opción "Administrar choferes", en la pantalla siguiente seleccione el botón "Registrar" y automáticamente se mostrará un formulario a completar, con los siguientes datos: nombre, apellido, rut, fecha nacimiento, dirección, teléfono y licencia. Finalmente debe seleccionar el botón "Registrar" para que los datos sean guardados. </string>
+
+    <string name="tutorial_adm04">Desde el menú principal seleccione la opción "Administrar choferes", en la pantalla siguiente seleccione el botón "Modificar" y se muestra un recuadro para el ingreso del rut de chofer. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestra un formulario con los datos del chofer. Posteriormente proceda a modificar los datos que estime conveniente y finalmente seleccione el botón "Modificar" para que los cambios sean guardados. </string>
+
+    <string name="tutorial_adm05">Desde el menú principal seleccione la opción "Administrar choferes", en la pantalla siguiente seleccione el botón "Eliminar" y se muestra un recuadro para el ingreso del rut de chofer. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestra un cuadro de confirmación para que el chofer sea eliminado. De ser confirmando el mensaje la aplicación muestra un mensaje de éxito. De no ser confirmado se cancela la eliminación.</string>
+
+    <string name="tutorial_adm06">Desde el menú principal seleccione la opción "Administrar choferes", en la pantalla siguiente seleccione el botón "Reporte" y se muestran dos recuadros para el ingreso del rut de chofer y la fecha. Ingrese los datos requeridos y seleccione el botón "Aceptar", automáticamente se muestra un reporte con los siguientes datos: nombre, rut, tiempo trabajado y tiempo descansado.</string>
+
+    <string name="tutorial_adm07">Desde el menú principal seleccione la opción "Administrar choferes", en la pantalla siguiente seleccione el botón "Buscar" y se muestra un recuadro para el ingreso del rut de chofer. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestran los datos del chofer, tales como: nombre, rut, fecha nacimiento, dirección, teléfono y licencia.</string>
+
+    <string name="tutorial_adm08">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Registrar" y automáticamente se mostrará un formulario a completar, con los siguientes datos: patente, marca, modelo, año, dueño, kilometraje y revisión técnica. Finalmente debe seleccionar el botón "Registrar" para que los datos sean guardados. </string>
+
+    <string name="tutorial_adm09">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Modificar" y se muestra un recuadro para el ingreso de la patente del vehículo. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestra un formulario con los datos del vehículo. Posteriormente proceda a modificar los datos que estime conveniente y finalmente seleccione el botón "Modificar" para que los cambios sean guardados. </string>
+
+    <string name="tutorial_adm10">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Eliminar" y se muestra un recuadro para el ingreso de la patente del vehículo. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestra un cuadro de confirmación para que el vehículo sea eliminado. De ser confirmando el mensaje la aplicación muestra un mensaje de éxito. De no ser confirmado se cancela la eliminación.</string>
+
+    <string name="tutorial_adm11">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Reporte" y se muestran dos recuadros para el ingreso de la patente del vehículo y la fecha. Ingrese los datos requeridos y seleccione el botón "Aceptar", automáticamente se muestra un reporte con los siguientes datos: nombre chofer, fecha reporte, kilometraje, velocidad máxima, velocidad mínima y velocidad promedio.</string>
+
+    <string name="tutorial_adm12">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Buscar" y se muestra un recuadro para el ingreso de la patente del vehículo. Ingrese el dato requerido y seleccione el botón "Aceptar", automáticamente se muestran los datos del chofer, tales como: patente, marca, modelo, año, nombre dueño, kilometraje y revisión técnica.</string>
+
+    <string name="tutorial_adm13">Desde el menú principal seleccione la opción "Administrar vehículos", en la pantalla siguiente seleccione el botón "Localizar" y de forma automática se visualiza un mapa de acuerdo a su ubicación actual, junto con ello puede ver y seleccionar los vehículos, mostrando información de estos; patente, velocidad, distancia y estimación de llegada. </string>
+
+    <string name="provincia_prompt">Seleccione Provincia</string>
+
+    <string-array name="provincia_arrays">
+        <item>Seleccione provincia</item>
+        <item>Marga Marga</item>
+        <item>Quillota</item>
+        <item>San Antonio</item>
+        <item>Valparaiso</item>
+    </string-array>
+
+    <string-array name="licencia_arrays">
+        <item>Seleccione licencia</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+    </string-array>
+
+    <string name="title_activity_publicar_comentario">Comentarios</string>
+    <string name="title_activity_registrar_chofer">Registro</string>
+    <string name="title_activity_modificar_chofer">Modificar</string>
+    <string name="title_activity_eliminar_chofer">Eliminar</string>
+    <string name="title_activity_reporte_chofer">Reporte</string>
+    <string name="title_activity_buscar_chofer">Buscar</string>
+    <string name="title_activity_registrar_vehiculo">Registro</string>
+    <string name="title_activity_modificar_vehiculo">Modificar</string>
+    <string name="title_activity_eliminar_vehiculo">Eliminar</string>
+    <string name="title_activity_reporte_vehiculo">Reporte</string>
+    <string name="title_activity_buscar_vehiculo">Buscar</string>
+    <string name="title_activity_localizar_vehiculos">Localizar</string>
+</resources>

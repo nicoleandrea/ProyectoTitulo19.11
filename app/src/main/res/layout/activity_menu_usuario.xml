@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_900"
+    tools:context="com.example.nicole.smartcoming.Menu_usuario">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar_menu_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material" />
+
+    <RelativeLayout
+        android:id="@+id/layoutMenuUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar_menu_usuario"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tableLayout">
+
+            <TableRow
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                android:onClick="miPerfil">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:onClick="miPerfil"
+                    android:src="@mipmap/ic_person_white_48dp" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="miPerfil"
+                    android:padding="13dip"
+
+                    android:text="MI PERFIL"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                android:onClick="mostrarHorarios">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:onClick="mostrarHorarios"
+                    android:src="@mipmap/ic_query_builder_white_48dp" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="mostrarHorarios"
+                    android:padding="13dip"
+
+                    android:text="HORARIOS"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                android:onClick="localizarVehiculos">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:onClick="localizarVehiculos"
+                    android:src="@mipmap/ic_location_on_white_48dp" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="localizarVehiculos"
+                    android:padding="13dip"
+
+                    android:text="LOCALIZAR"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+            android:clickable="true"
+            android:onClick="publicarComentario"
+                android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:clickable="true"
+                android:onClick="publicarComentario"
+                android:src="@mipmap/ic_message_white_48dp" />
+
+            <TextView
+                android:layout_column="2"
+                android:clickable="true"
+                android:gravity="left"
+                android:onClick="publicarComentario"
+                android:padding="13dip"
+
+                android:text="COMENTARIOS"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </TableRow>
+
+            <TableRow
+                android:clickable="true"
+                android:onClick="ayudaApp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:onClick="ayudaApp"
+                    android:src="@mipmap/ic_help_white_48dp" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="ayudaApp"
+                    android:padding="13dip"
+                    android:text="AYUDA"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/material_blue_grey_900"
+                    android:id="@+id/TxtUrlImagen"
+                    android:layout_column="2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

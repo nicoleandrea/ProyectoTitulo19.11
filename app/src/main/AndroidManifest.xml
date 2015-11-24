@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nicole.smartcoming">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.example.nicole.smartcoming.ClaseGlobal"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Inicio"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".registro_usuario"
+            android:label="@string/title_activity_registro_usuario"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Iniciar_sesion"
+            android:label="@string/title_activity_iniciar_sesion"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Menu_usuario"
+            android:label="@string/title_activity_menu_usuario"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Mostrar_usuario"
+            android:label="@string/title_activity_mostrar_usuario"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Modificar_usuario"
+            android:label="@string/title_activity_modificar_usuario"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Listar_usuarios"
+            android:label="@string/title_activity_listar_usuarios"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Mostrar_horarios"
+            android:label="@string/title_activity_mostrar_horarios"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Menu_administrador"
+            android:label="@string/title_activity_menu_administrador"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Menu_choferes"
+            android:label="@string/title_activity_menu_choferes"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Menu_vehiculos"
+            android:label="@string/title_activity_menu_vehiculos"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Publicar_comentario"
+            android:label="@string/title_activity_publicar_comentario"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Registrar_chofer"
+            android:label="@string/title_activity_registrar_chofer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Modificar_chofer"
+            android:label="@string/title_activity_modificar_chofer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Eliminar_chofer"
+            android:label="@string/title_activity_eliminar_chofer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Reporte_chofer"
+            android:label="@string/title_activity_reporte_chofer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Buscar_chofer"
+            android:label="@string/title_activity_buscar_chofer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Registrar_vehiculo"
+            android:label="@string/title_activity_registrar_vehiculo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Modificar_vehiculo"
+            android:label="@string/title_activity_modificar_vehiculo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Eliminar_vehiculo"
+            android:label="@string/title_activity_eliminar_vehiculo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Reporte_vehiculo"
+            android:label="@string/title_activity_reporte_vehiculo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Buscar_vehiculo"
+            android:label="@string/title_activity_buscar_vehiculo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ViewPagerFragmentActivity"
+            android:label="@string/title_tutorial"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ViewPagerFragmentAdmActivity"
+            android:label="@string/title_tutorial"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Localizar_vehiculos"
+            android:label="@string/title_activity_localizar_vehiculos"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

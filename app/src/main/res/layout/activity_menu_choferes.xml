@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_900"
+    tools:context="com.example.nicole.smartcoming.Menu_choferes">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar_menu_choferes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material" />
+
+    <RelativeLayout
+        android:id="@+id/layoutMenuChoferes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/app_bar_menu_choferes">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        android:layout_marginTop="20dp"
+        >
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_btn_registrarChofer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_column="3"
+                    android:onClick="registroChofer"
+                    android:src="@mipmap/ic_add_circle_white_48dp"
+                    android:clickable="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_btn_modificarChofer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_column="3"
+                    android:onClick="modificarChofer"
+                    android:src="@mipmap/ic_create_white_48dp"
+                    android:clickable="true" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+
+
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="REGISTRAR"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="13dip"
+                    android:layout_column="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="MODIFICAR"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="13dip"
+                    android:layout_column="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_btn_eliminarChofer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_column="3"
+                    android:onClick="eliminarChofer"
+                    android:src="@mipmap/ic_delete_white_48dp"
+                    android:clickable="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_btn_reporteChofer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_column="3"
+                    android:onClick="reporteChofer"
+                    android:src="@mipmap/ic_assignment_white_48dp"
+                    android:clickable="true" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+
+
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="ELIMINAR"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="13dip"
+                    android:layout_column="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="REPORTE"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="13dip"
+                    android:layout_column="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_btn_buscarChofer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_column="3"
+                    android:onClick="buscarChofer"
+                    android:src="@mipmap/ic_search_white_48dp"
+                    android:clickable="true" />
+            </FrameLayout>
+
+        </TableRow>
+
+
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="BUSCAR"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="13dip"
+                    android:layout_column="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </FrameLayout>
+
+
+        </TableRow>
+
+    </TableLayout>
+        </RelativeLayout>
+</RelativeLayout>
